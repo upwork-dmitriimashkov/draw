@@ -15,6 +15,7 @@ export async function signUp(name: string, email: string, password: string) {
     options: {
       data: {
         name: name,
+        redirectTo: "https://draw.mbank.space/"
       },
     },
   });
